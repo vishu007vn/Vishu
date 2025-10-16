@@ -21,8 +21,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-# Get this value from @purvi_music_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID",8457570997))
+# Get this value from @sweetheart07_bot on Telegram by /id
+OWNER_ID = int(getenv("OWNER_ID",8227673917))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/0rm53h.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/hdbqy4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/0rm53h.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/901xsm.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/dahjy3.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/dahjy3.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/901xsm.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/901xsm.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
